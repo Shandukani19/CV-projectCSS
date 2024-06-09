@@ -1,4 +1,4 @@
-@media (min-width: 320px) {
+
   body {
     background-color: wheat;
     font-family: sans-serif;
@@ -35,6 +35,18 @@
     justify-content: space-between;
   }
 
+  @media (max-width: 768px) {
+   .personal-details{
+        flex-direction: column;
+    }
+
+    .name, .contacts{
+        flex:1 1 auto;
+        margin: 0;
+        padding: 10 px;
+    }
+  }
+
   a {
     color: blue;
   }
@@ -50,4 +62,4 @@
     border-radius: 10px;
     display: inline;
   }
-}
+
