@@ -62,4 +62,12 @@
     border-radius: 10px;
     display: inline;
   }
+  @media (max-width: 600px) {
+  li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 5px;
+    padding: 7px;
+  }
+}
 
