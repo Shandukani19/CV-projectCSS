@@ -1,68 +1,69 @@
+body {
+  background-color: wheat;
+  font-family: sans-serif;
+}
 
-  body {
-    background-color: wheat;
-    font-family: sans-serif;
-  }
+.container {
+  background-color: whitesmoke;
 
-  .container {
-    background-color: whitesmoke;
+  margin: 60px;
+  padding: 25px 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+}
 
-    margin: 60px;
-    padding: 25px 15px;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-    border-radius: 10px;
-  }
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
-  img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
+h1 {
+  text-decoration: underline;
+  color: blue;
+}
 
-  h1 {
-    text-decoration: underline;
-    color: blue;
-  }
+h2 {
+  color: blue;
+  text-align: center;
+  border-bottom: 1px solid #a8a8a8;
+  border-top: 1px solid #a8a8a8;
+}
 
-  h2 {
-    color: blue;
-    text-align: center;
-    border-bottom: 1px solid #a8a8a8;
-  }
+.personal-details {
+  display: flex;
+  justify-content: space-between;
+}
 
+@media (max-width: 768px) {
   .personal-details {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
 
-  @media (max-width: 768px) {
-   .personal-details{
-        flex-direction: column;
-    }
-
-    .name, .contacts{
-        flex:1 1 auto;
-        margin: 0;
-        padding: 10 px;
-    }
+  .name,
+  .contacts {
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 10 px;
   }
+}
 
-  a {
-    color: blue;
-  }
+a {
+  color: blue;
+}
 
-  a:visited {
-    color: green;
-  }
+a:visited {
+  color: green;
+}
 
-  li {
-    background-color: wheat;
-    margin: 10px;
-    padding: 7px;
-    border-radius: 10px;
-    display: inline;
-  }
-  @media (max-width: 600px) {
+li {
+  background-color: wheat;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 10px;
+  display: inline;
+}
+@media (max-width: 600px) {
   li {
     display: block;
     margin-right: 0;
@@ -70,4 +71,3 @@
     padding: 7px;
   }
 }
-
